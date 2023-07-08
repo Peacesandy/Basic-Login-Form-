@@ -4,7 +4,7 @@ body{
     background: url('backgroundimage.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    
 }
 
 img{
@@ -82,6 +82,5 @@ h2{
 .loginBox a{
     color: #fff;
     font-size: 14px;
-    font-weight: bold;
 }
 
