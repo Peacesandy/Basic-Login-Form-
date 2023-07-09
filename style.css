@@ -1,3 +1,4 @@
+/*Get rid of all default margins/paddings. */
 body{
     margin: 0;
     padding: 0;
@@ -7,6 +8,7 @@ body{
     
 }
 
+/* styling the image */
 img{
   width: 100px;
   height: 100px;
@@ -17,6 +19,8 @@ img{
     left: 130px;
 }
 
+
+/*h2 tag*/
 h2{
     margin: 0;
     padding: 0 0 20px;
@@ -24,6 +28,7 @@ h2{
     text-align: center;
 }
 
+/* login class attribute */
 .loginBox{
     position: absolute;
     top: 50%;
@@ -36,6 +41,7 @@ h2{
     background: rgba(0, 0, 0, .5);
 }
 
+/*loginBox p element*/
 .loginBox p{
     margin: 0;
     padding: 0;
@@ -43,11 +49,13 @@ h2{
     color: #fff;
 }
 
+/*loginBox input element */
 .loginBox input{
     width: 100%;
     margin-bottom: 20px;
 }
 
+/*loginBox input type, text and password*/
 .loginBox input[type='text'],
 .loginBox input[type='password']{
     border: none;
@@ -59,10 +67,12 @@ h2{
     font-size: 16px;
 }
 
+/*styling the placeholder */
 ::placeholder{
     color: rgba(255, 255, 255, .5);
 }
 
+/*styling the input submit field*/
 .loginBox input[type='submit']{
      border: none;
      outline: none;
@@ -74,11 +84,13 @@ h2{
      border-radius: 20px;
 }
 
+/*Adding a hover effect to the submit button*/
 .loginBox input[type='submit']:hover{
     background: #efed40;
     color: #262626;
 }
 
+/*Adding the a tag*/
 .loginBox a{
     color: #fff;
     font-size: 14px;
